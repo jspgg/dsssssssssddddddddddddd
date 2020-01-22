@@ -30,7 +30,8 @@ jsproxy_config({
     'demo-cf1': {
       label: 'CF节点1',
       lines: {
-        'b.lulu.workers.dev': 1,
+       // 'b.lulu.workers.dev': 1,
+ [location.host]: 1,
       }
     },
     // 该节点用于加载大体积的静态资源
